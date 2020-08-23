@@ -1,5 +1,11 @@
 <html>
 <head>
+      
+      <style>
+            label{display: inline-block; width: 25em;}
+            fieldset{display: inline; float: left; width: 500em;}
+      </style>
+      
 </head>
 <body>
 
@@ -15,24 +21,30 @@
       <legend>Trade Settings</legend>
       <label for="min24">24 Hr Min:</label>
       <input type="text" id="min24" /></br></br>
-      <label for="minLim">Limit Min:</label>
-      <input type="text" id="minLim" /></br></br>
       <label for="max24">24 Hr Max:</label>
       <input type="text" id="max24" /></br></br>
+      <label for="minLim">Limit Min:</label>
+      <input type="text" id="minLim" /></br></br>
       <label for="maxLim">Limit Max:</label>
       <input type="text" id="maxLim" />
 </fieldset>
 
 <fieldset>
-      <legend>Account</legend>
-      <label for="balDIA">DAI Balance:</label>
+      <legend>Account Balances</legend>
+      <label for="balDIA">DAI:</label>
       <input type="text" id="balDAI" /></br></br>
-      <label for="valDAI">DAI Value:</label>
-      <input type="text" id="valDAI" /></br></br>
-      <label for="balUSD">USD Balance:</label>
+      <label for="balUSD">USD:</label>
       <input type="text" id="balUSD" /></br></br>
-      <label for="balACT">Account Balance:</label>
+      <label for="balACT">ACT:</label>
       <input type="text" id="balACT" />
+</fieldset>
+
+<fieldset>
+      <legend>Status</legend>
+      <label for="sType">Status:</label>
+      <input type="text" id="sType" /></br></br>
+      <label for="sTime">Time:</label>
+      <input type="text" id="sTime" /></br></br>
 </fieldset>
 
 </body>
